@@ -1,0 +1,864 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #212429;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(75deg, rgba(127, 95, 226, 0.5), rgba(0,0,0,0.3)), url('../IMAGES/7395559c4fce054508e021d5c13fa616.jpg');
+    /* background-image: url(../IMAGES/861764158201fcbf7a001b46c832d1e5.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 100px;
+}
+.banner .navbar2{
+    display: none;
+}
+.banner .navbar3{
+    display: none;
+}
+.banner .navbar{
+    z-index: 4;
+    position: fixed;
+    padding: 10px 100px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212429;
+}
+.banner .navbar .lft{
+    display: flex;
+    align-items: center;
+}
+.banner .navbar .lft .logo{
+    font-family: cursive;
+    color: white;
+    font-size: 30px;
+}
+.banner .navbar .lft form{
+    display: flex;
+    align-items: center;
+}
+.banner .navbar .lft form input{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 30px;
+    font-size: bold;
+    border: 3px solid #8263e1;
+}
+.banner .navbar .lft form input:hover{
+    background-color: #8263e1;
+    border: 2px solid  #8263e1;
+}
+.banner .navbar .lft form  button{
+    padding: 13px 13px 14px 13px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8263e1;
+    border-right: 1px solid #8263e1;
+    border-top: none;
+    border-bottom: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.banner .navbar .lft form  button:hover{
+    background-color: #8263e1;
+    color: #3b3e43;
+    border: transparent;
+}
+.banner .navbar .rgh ul{
+    display: flex;
+    align-items: center;
+}
+.banner .navbar .rgh ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+.banner .navbar .rgh ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.banner .navbar .rgh ul a:hover{
+    text-decoration: none;
+    color: #8263e1;
+    font-size: 13px;
+}
+.banner .navbar .rgh ul li a button{
+    padding: 10px 15px ;
+    background-color: #8263e1;
+    color: white;
+    font-size: 13px;
+    border-radius: 15px;
+    border: none;
+}
+.banner .navbar .rgh ul li a button:hover{
+    background-color: white;
+    color: #8263e1;
+}
+.banner .ban{
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    top: 8vh;
+    margin-top: 80px;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.banner .ban .label{
+    padding-right: 50px;
+}
+.banner .ban .label span{
+    color: #8263e1;
+    font-size: 13px;
+    font-weight: bold;
+}
+.banner .ban .label h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.banner .ban .label p{
+    color: white;
+    margin-bottom: 10px;
+}
+.banner .ban .label button{
+    margin-top: 30px;
+    background-color: #8263e1;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+}
+.banner .ban .label button:hover{
+    color: #8263e1;
+    background-color: white;
+}
+.banner .ban .label .can{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.banner .ban .label .can .can-1{
+    margin-right: 100px;
+    color: white;
+}
+.banner .ban .label .can .can-1 h3{
+    font-size: 30px;
+}
+.banner .ban .label .can .can-1 p{
+    color: white;
+    margin-top: 10px;
+}
+.banner .ban .pic{
+    height: 70vh;
+    background-image: url(../IMAGES/women-with-vr.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nft{
+    padding: 50px 100px;
+    height: auto;
+    background-color: #212429;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+}
+.nft .nft-1{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #282b30;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px black;
+}
+.nft .nft-1 img{
+    width: 10vh;
+    height: 10vh;
+}
+.nft .nft-1 p{
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.m {
+    text-align: center;
+}
+.m a{
+    text-decoration: none;
+    color: #8263e1;
+    font-size: 16px;
+}
+.m a:hover{
+    color: white;
+}
+#h{
+    color: white;
+    padding: 30px 100px;
+}
+.new-items {
+    color: white;
+    padding: 20px 100px 70px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px; 
+    width: 100%;
+    overflow: none;
+}
+.new-items .new-item{
+    height: 50vh;
+    padding: 30px ;
+    background-color: #282b30;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px black;
+}
+.new-items .new-item .profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+.new-items .new-item .profile img{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+.new-items .new-item .profile i{
+    background-color: #8263e1;
+    color: white;
+    position: relative;
+    top: -30px;
+    border-radius: 100%;
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+.new-items .new-item .nft{
+    height: 20vh;
+    border-radius: 15px;
+    background-image: url(../IMAGES/I\ believe\ I\ can\ fly.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 210px;
+}
+.new-items .new-item .nft2{
+    height: 20vh;
+    border-radius: 15px;
+    background-image: url(../IMAGES/live\ art.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 210px;
+}
+.new-items .new-item .nft3{
+    height: 20vh;
+    border-radius: 15px;
+    background-image: url(../IMAGES/Red\ ocean.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 210px;
+}
+.new-items .new-item .nft4{
+    height: 20vh;
+    border-radius: 15px;
+    background-image: url(../IMAGES/hot-lava-red-lava-texture-background_160901-5519.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 210px;
+}
+.new-items .new-item .label{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+} 
+.new-items .new-item .lft p{
+    font-size: 10px;
+    color: white;
+    margin-top: 10px;
+}
+.new-items .new-item .lft p span{
+    color: gray;
+    margin-right: 10px;
+}
+.new-items .new-item .lft a{
+    text-decoration: none;
+    color: #8263e1;
+    font-size: 10px;
+}
+.new-items .new-item .lft a:hover{
+    color: white;
+}
+.new-items .new-item .rgt p{
+    margin-top: 20px;
+    font-size: 10px;
+    color: white;
+}
+.top-sellers {
+    color: white;
+    padding: 20px 100px 70px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px; 
+    width: 100%;
+}
+.top-sellers .col{
+    height: auto;
+    margin: 10px 0px;
+}
+.top-sellers .col .top-seller{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.top-sellers .col .top-seller p{
+    color: gray;
+    font-size: 13px;
+}
+.top-sellers .col .top-seller .profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+.top-sellers .col .top-seller .profile img{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+.top-sellers .col .top-seller .profile i{
+    background-color: #8263e1;
+    color: white;
+    position: relative;
+    top: -30px;
+    border-radius: 100%;
+    font-size: 10px;
+    margin-left: 30px;
+}
+.top-sellers .col .top-seller label{
+    margin-left: 10px;
+}
+.top-sellers .col .top-seller label p{
+    color: white;
+    font-size: 13px;
+}
+.top-sellers .col .top-seller label span{
+    color: gray;
+    font-size: 10px;
+}
+.hot-collections {
+    color: white;
+    padding: 20px 100px 80px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px; 
+    width: 100%;
+}
+.hot-collections .hot1{
+    padding-bottom: 10px;
+    height: auto;
+    background-color: #282b30;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px black;
+}
+.hot-collections .hot1 .canvas{
+    height: 20vh;
+    width: 100%;
+    border-radius: 15px;
+    background-image: url(../IMAGES/skecthify\ \ tokenization_art-03.jpg.optimal.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.hot-collections .hot1 .canvas2{
+    height: 20vh;
+    width: 100%;
+    border-radius: 15px;
+    background-image: url(../IMAGES/monkey-cartoonism1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.hot-collections .hot1 .canvas3{
+    height: 20vh;
+    width: 100%;
+    border-radius: 15px;
+    background-image: url(../IMAGES/virtuland.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.hot-collections .hot1 .canvas4{
+    height: 20vh;
+    width: 100%;
+    border-radius: 15px;
+    background-image: url(../IMAGES/papercut\ images.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.hot-collections .hot1 .detail {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hot-collections .hot1 .detail .profile{
+    position: relative;
+    top: -10px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+.hot-collections .hot1 .detail .profile img{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+.hot-collections .hot1 .detail .profile i{
+    background-color: #8263e1;
+    color: white;
+    position: relative;
+    top: -20px;
+    border-radius: 100%;
+    font-size: 10px;
+    margin-left: 20px;
+}
+.hot-collections .hot1 .detail p{
+    color: white;
+    font-size: 13px;
+}
+.hot-collections .hot1 .detail span{
+    color: gray;
+    font-size: 10px;
+}
+.icons {
+    color: white;
+    padding: 20px 100px 70px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px; 
+    width: 100%;
+}
+.icons .icon{
+    padding: 30px;
+    height: auto;
+    background-color: #282b30;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px black;
+}
+.icons .icon .awesome{
+    width: 50px;
+    height: 50px;
+    background-color: #8263e1;
+    font-size: 20px;
+    border: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.icons .icon p{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.icons .icon span{
+    color: gray;
+    font-size: 10px;
+}
+.footer {
+    margin-top: 50px;
+    background-color: #26292e;
+    padding: 20px 100px 20px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px; 
+    width: 100%;
+}
+.footer .marketplace{
+    padding: 30px 20px 30px 0px;
+    height: auto;
+}
+.footer .marketplace p{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.footer .marketplace ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer .marketplace ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 10px;
+}
+.footer .marketplace ul li a:hover{
+    color: #8263e1;
+}
+.footer .marketplace span{
+    text-decoration: none;
+    color: gray;
+    font-size: 10px;
+}
+.footer .marketplace form{
+    display: flex;
+    align-items: center;
+}
+.footer .marketplace form  input{
+    padding: 7px;
+    background-color: #3b3e43;
+    border: 1px solid #3b3e43;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: bold;
+    margin: 10px 0px;
+}
+.footer .marketplace form  input:hover{
+    background-color: #8263e1;
+    border: 1px solid #8263e1;
+}
+.footer .marketplace form  button{
+    padding: 10px;
+    background-color: #8263e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.footer .marketplace form  button:hover{
+    background-color: white;
+    color: #3b3e43;
+}
+.footbar {
+    background-color: #26292e;
+    padding: 10px 100px 10px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.footbar .copyright{
+    color: gray;
+    font-size: 10px;
+}
+.footbar .sm {
+    display: flex;
+    align-items: center;
+}
+.footbar .sm .sm1{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #8263e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.footbar .sm .sm1:hover{
+    background-color: white;
+    color: #3b3e43;
+}
+.footbar .sm .sm1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+.footbar .sm .sm1 a:hover{
+    text-decoration: none;
+    color: #3b3e43;
+}
+@media screen and (max-width:1115px){
+    .banner{
+        padding: 1px 4px;
+    }
+    .banner .navbar{
+        display: none;
+    }
+    .banner .navbar2{
+        z-index: 4;
+        position: fixed;
+        padding: 10px;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #212429; 
+        padding: 10px 40px;
+
+    }
+    .banner .navbar2 .lft{
+        display: flex;
+        align-items: center;
+    }
+    .banner .navbar2 .lft .logo{
+        font-family: cursive;
+        color: white;
+        font-size: 30px;
+    }
+    .banner .navbar2 .lft form{
+        display: flex;
+        align-items: center;
+    }
+    .banner .navbar2 .lft form input{
+        padding: 10px;
+        background-color: transparent;
+        border: none;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-left: 30px;
+        font-size: bold;
+        border: 3px solid #8263e1;
+    }
+    .banner .navbar2 .lft form input:hover{
+        background-color: #8263e1;
+        border: 2px solid  #8263e1;
+    }
+    .banner .navbar2 .lft form  button{
+        padding: 13px 13px 14px 13px;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #8263e1;
+        border-right: 1px solid #8263e1;
+        border-top: none;
+        border-bottom: none;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .banner .navbar2 .lft form  button:hover{
+        background-color: #8263e1;
+        color: #3b3e43;
+        border: transparent;
+    }
+    .banner .navbar2 .rgh a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+    .banner .navbar2 .rgh a i{
+        color: white;
+    }
+    .banner .ban{
+        grid-template-columns: 1fr;
+        padding: 10px 40px;
+    }
+    .banner .ban .pic{
+        display: none;
+    }
+    .nft{
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 50px 40px;
+    }
+    #h{
+        color: white;
+        padding: 30px 40px;
+    }
+    .new-items {
+        color: white;
+        padding: 30px 40px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .new-items .new-item{
+        height: auto;
+    }
+    .new-items .new-item .nft{
+        width: 90%;
+    }
+    .new-items .new-item .nft2{
+        width: 90%;
+    }
+    .new-items .new-item .nft3{
+        width: 90%;
+    }
+    .new-items .new-item .nft4{
+        width: 90%;
+    }
+    .top-sellers{
+        padding: 30px 40px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .hot-collections{
+        padding: 30px 40px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .icons{
+        padding: 30px 40px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer{
+        padding: 30px 40px;
+    }
+    .footer .marketplace{
+        padding: 30px 20px 10px 0px;
+    }
+    .footbar{
+        padding: 10px 40px;
+    }
+}
+@media screen and (max-width:768px){
+    .banner{
+        padding: 10px 40px;
+    }
+    .banner .navbar2{
+        display: none;
+    }
+    .banner .navbar3{
+        z-index: 4;
+        padding: 10px 70px;
+        position: fixed;
+        right: 0px;
+        width: 100%;
+        display: block;
+        width: 100%;
+        height: 8vh;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #212429;
+        top: 0px;
+    }
+    .banner .navbar3 .logo{
+        font-family: cursive;
+        color: white;
+        font-size: 20px;
+    }
+    .banner .navbar3 a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+    .new-items .new-item{
+        height: auto;
+    }
+    .new-items .new-item .nft{
+        width: 90%;
+    }
+    .new-items .new-item .nft2{
+        width: 90%;
+    }
+    .new-items .new-item .nft3{
+        width: 90%;
+    }
+    .new-items .new-item .nft4{
+        width: 90%;
+    }
+    .icons{
+        padding: 30px 40px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:480px){
+    .banner{
+        padding: 10px 10px;
+        width: 100%;
+    }
+    .banner .navbar2{
+        display: none;
+    }
+    .banner .navbar3{
+        display: block;
+    }
+    .banner .navbar3{
+        width: 100%;
+        padding: 10px 40px;
+        position: fixed;
+        right: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner .ban .label h2{
+        color: white;
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    .banner .ban .label p{
+        color: white;
+        margin-bottom: 1px;
+    }
+    .banner .ban .label .can .can-1{
+        margin-right: 50px;
+        color: white;
+    }
+    .nft{
+        grid-template-columns: 1fr 1fr;
+    }
+    #h{
+        color: white;
+        padding: 30px 10px;
+    }
+    .new-items{
+        color: white;
+        padding: 10px 10px;
+        grid-template-columns: 1fr;
+    }
+    .new-items .new-item{
+        height: auto;
+    }
+    .hot-collections{
+        padding: 10px 10px;
+        grid-template-columns: 1fr;
+    }
+    .icons{
+        padding: 10px 10px;
+        grid-template-columns: 1fr;
+    }
+    .footer{
+        padding: 10px 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer .marketplace{
+        padding: 20px 0px 20px 0px;
+    }
+    .footbar{
+        padding: 10px 10px;
+    }
+}
